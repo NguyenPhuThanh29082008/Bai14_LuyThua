@@ -5,14 +5,15 @@
 using namespace std;
 int main()
 {
-	cout << "Luy Thua Cua So Mu 4\n";
-	int so, luythua = 1, b = 4;
-	cout << "Nhap so de tinh luy thua: "; cin >> so;
-	for (int a = 1; a < b; a++)
+	cout << "Luy Thua\n";
+	int so, luythua = 1, mu;
+	cout << "Nhap so de tinh luy thua: "; cin >> so; 
+	cout << "Nhap so mu: ";  cin >> mu;
+	for (int i = 0; i < mu; i++)
 	{
 		luythua *= so;
 	}
-	cout << so << " ^4 " << " = " << luythua * so << endl;
+	cout << so << "^" << mu << " = " << luythua << endl;
 	return 0;
 }
 
